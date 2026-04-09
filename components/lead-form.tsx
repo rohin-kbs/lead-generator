@@ -143,6 +143,7 @@ const mappedLeads: Lead[] = Array.isArray(data)
             </Select>
 
             <Input
+              placeholder="Number of Leads"
               type="number"
               value={numberOfLeads}
               onChange={(e) => setNumberOfLeads(e.target.value)}
