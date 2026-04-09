@@ -61,7 +61,7 @@ export function LeadForm() {
 
     try {
       const n8nWebhookUrl =
-        process.env.NEXT_PUBLIC_N8N_WEBHOOK_URL || "https://rohinbhatti.app.n8n.cloud/webhook/lead generator"
+        process.env.NEXT_PUBLIC_N8N_WEBHOOK_URL || "https://rohinbhatti.app.n8n.cloud/workflow/nb5Uk61PRzFXLxiB"
 
       const response = await fetch(n8nWebhookUrl, {
         method: "POST",
